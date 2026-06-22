@@ -1,0 +1,59 @@
+name: fucinhu_co
+description: Fucinho.co — Serviços pet perto de você.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+  # ── Backend: Supabase (auth + banco + storage) ──────────────
+  supabase_flutter: ^2.3.4
+
+  # ── Localização ──────────────────────────────────────────────
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
+
+  # ── Imagens ──────────────────────────────────────────────────
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+
+  # ── Mapa ─────────────────────────────────────────────────────
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.0
+
+  # ── Utils ────────────────────────────────────────────────────
+  http: ^1.2.0
+  uuid: ^4.3.3
+  path: ^1.9.0
+  url_launcher: ^6.3.0
+  country_code_picker: ^3.4.1
+  google_maps_flutter: ^2.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#2236D4"
+  adaptive_icon_foreground: "assets/images/logo.png"
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+    background_color: "#2236D4"
+    theme_color: "#2236D4"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

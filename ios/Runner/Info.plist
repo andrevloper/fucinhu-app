@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ── Localização ─────────────────────────────────────────── -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>O Fucinho.co precisa da sua localização para encontrar serviços pet próximos a você.</string>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>O Fucinho.co usa sua localização para mostrar serviços pet próximos.</string>
+
+    <!-- ── Câmera e fotos (para cadastro de pets) ───────────────── -->
+    <key>NSCameraUsageDescription</key>
+    <string>Tire uma foto do seu pet para o perfil.</string>
+
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Escolha uma foto do seu pet da galeria.</string>
+
+    <!-- ── Configurações do Flutter ───────────────────────────── -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>pt_BR</string>
+
+    <key>CFBundleDisplayName</key>
+    <string>Fucinho.co</string>
+
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <key>CFBundleName</key>
+    <string>fucinhu_co</string>
+
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+
+    <key>CFBundleSignature</key>
+    <string>????</string>
+
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+
+    <key>LSRequiresIPhoneOS</key>
+    <true/>
+
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+</dict>
+</plist>

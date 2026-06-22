@@ -1,1 +1,3 @@
-# fucinhu-app
+# fucinhu-co
+
+A new Flutter project.
